@@ -86,7 +86,7 @@ export function create_geometry(scene) {
 export function create_MoveableBox(world) {
   const loader = new THREE.TextureLoader();
   const cubeMaterial1 = new THREE.MeshLambertMaterial({
-    color: 0xf70000,
+    color: 0xd9ead3,
     envMap: reflectionCube,
   });
   let moveableBox = new THREE.Mesh(new THREE.SphereGeometry(0.3, 50, 50, 0, Math.PI * 2, 0, Math.PI * 2), cubeMaterial1);
@@ -104,7 +104,7 @@ export function create_ShootableBox(scene) {
 
   //create Shootable Box
   const cubeMaterial1 = new THREE.MeshLambertMaterial({
-    color: 0xffffff,
+    color: 0xf3f6f4,
     envMap: reflectionCube,
   });
   let shootableBox = new THREE.Mesh(new THREE.SphereGeometry(0.3, 50, 50, 0, Math.PI * 2, 0, Math.PI * 2), cubeMaterial1);
