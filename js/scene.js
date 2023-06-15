@@ -60,7 +60,7 @@ export function create_geometry(scene) {
       cursor.add(mod);
       gltf.scene.scale.set(0.65, 0.65, 0.65);
       gltf.scene.position.y = -2.76;
-      gltf.scene.position.x = +4.055;
+      gltf.scene.position.x = +3.455;
       //   gltf.scene.position.z = -0.5;
       gltf.scene.rotation.x = Math.PI / 50;
       gltf.scene.rotation.y = Math.PI + 0.5;
