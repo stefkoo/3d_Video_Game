@@ -83,8 +83,8 @@ export function billboard(parent) {
 
     context.fillStyle = "black";
     context.font = "30px Arial";
-    context.fillText("Game Over ", 190, 50);
-    context.fillText("Du hast bis Welle " + wave + " durchgehalten", 30, 110);
+    context.fillText("Verloren ", 190, 50);
+    context.fillText("Du hast es bis Level " + wave + " geschafft", 30, 110);
     context.fillText("Score: " + score, 200, 150);
     material.map.needsUpdate = true;
     material.needsUpdate = true;
@@ -99,8 +99,8 @@ export function billboard(parent) {
 
     context.fillStyle = "black";
     context.font = "30px Arial";
-    context.fillText("Welle " + wave + " kommt!", 150, 80);
-    context.fillText("Du hast noch " + life + " Leben!", 110, 150);
+    context.fillText("Level " + wave + " kommt!", 150, 80);
+    context.fillText("Du hast noch " + life + " Leben übrig!", 110, 150);
     material.map.needsUpdate = true;
     material.needsUpdate = true;
   };
