@@ -58,7 +58,7 @@ export function create_geometry(scene) {
     function (gltf) {
       mod = gltf.scene;
       cursor.add(mod);
-      gltf.scene.scale.set(0.005, 0.005, 0.005);
+      gltf.scene.scale.set(0.115, 0.115, 0.115);
       gltf.scene.position.y = -0.01;
       gltf.scene.position.x = +0.025;
       //   gltf.scene.position.z = -0.5;
