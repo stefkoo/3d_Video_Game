@@ -62,8 +62,8 @@ export function create_geometry(scene) {
       gltf.scene.position.y = -0.199;
       gltf.scene.position.x = +0.025;
       //   gltf.scene.position.z = -0.5;
-      gltf.scene.rotation.x = Math.PI / 9;
-      gltf.scene.rotation.y = Math.PI / 0.5;      //   gltf.scene.rotation.z = 80;
+      gltf.scene.rotation.x = Math.PI / - 10;
+      gltf.scene.rotation.y = Math.PI  + 0.25;      //   gltf.scene.rotation.z = 80;
       gltf.scene.updateMatrix();
       //   scene.add(mod);
     },
