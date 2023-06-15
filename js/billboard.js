@@ -60,8 +60,9 @@ export function billboard(parent) {
   that.draw_canvas = function (score, lifes, wave) {
     context.clearRect(0, 0, canvas.width, canvas.height);
 
+
     context.globalAlpha = 1.0;
-    context.fillStyle = "green";
+    context.fillStyle = "blue";
     context.fillRect(0, 0, 140, 120);
 
     context.fillStyle = "black";
@@ -77,7 +78,7 @@ export function billboard(parent) {
     context.clearRect(0, 0, canvas.width, canvas.height);
 
     context.globalAlpha = 1.0;
-    context.fillStyle = "green";
+    context.fillStyle = "blue";
     context.fillRect(0, 0, 500, 1600);
 
     context.fillStyle = "black";
