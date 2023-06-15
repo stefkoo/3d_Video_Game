@@ -1,5 +1,4 @@
-//  Copyright Henning Weise
-//  20.06.2021
+
 
 import { keyboard, mouse } from "./keyboard_mouse.js";
 import { create_scene, create_geometry, create_ShootableBox, create_MoveableBox, create_Intro } from "./scene.js";
